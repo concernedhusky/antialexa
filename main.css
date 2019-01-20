@@ -6,8 +6,8 @@ body {
 
 #points {
   position: relative;
-  width: 700px;
-  height: 300px;
+
+  background-repeat: no-repeat;
 }
 
 #image {
@@ -20,7 +20,7 @@ body {
   left: 0;
   height: 100%;
   width: 100%;
-  background-position: center top; 
+  background-position: center top;
   background-repeat: no-repeat;
 }
 
