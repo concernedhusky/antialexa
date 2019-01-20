@@ -1,10 +1,32 @@
 body {
-  background-color: #eee;
-  font-family: arial;
+  background-color: #fff;
+  font-family:  Georgia, serif;
   width:90%;
 }
 
+#points {
+  position: relative;
+  width: 700px;
+  height: 300px;
+}
+
+#image {
+  background-image: url("https://news.northeastern.edu/wp-content/uploads/2018/08/KingHuskyHead.jpg");
+
+  position: fixed;
+  z-index: -1;
+  opacity: 0.1;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-position: center top; 
+  background-repeat: no-repeat;
+}
+
+
 h1 {
+  font-family: Georgia, serif;
   margin-left: 5%;
 }
 
