@@ -1,8 +1,7 @@
 body {
   background-color: #fff;
-  font-family:  'Raleway', sans-serif;
+  font-family:  Georgia, serif;
   width:90%;
-  color: black;
 }
 
 #points {
@@ -12,10 +11,11 @@ body {
 }
 
 #image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.2)), url("https://news.northeastern.edu/wp-content/uploads/2018/08/KingHuskyHead.jpg");
+  background-image: url("https://news.northeastern.edu/wp-content/uploads/2018/08/KingHuskyHead.jpg");
+
   position: fixed;
   z-index: -1;
-  opacity: 0.4;
+  opacity: 0.1;
   top: 0;
   left: 0;
   height: 100%;
@@ -24,26 +24,6 @@ body {
   background-repeat: no-repeat;
 }
 
-#banner {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.2)), url("https://www.pymnts.com/wp-content/uploads/2018/11/Amazon-Alexa-global-expansion.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: relative, center;
-  height: 220px;
-  width: 100%;
-  opacity: 1;
-
-}
-
-#bannercontent {
-  color: white;
-  border: 3px solid white;
-  position: center;
-  top: 20px;
-  width: 700px;
-  height: 200px;
-  margin: 0 auto;
-}
 
 h1 {
   font-family: Georgia, serif;
@@ -51,16 +31,10 @@ h1 {
 }
 
 h3 {
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0, 0.2); /* Black w/opacity/see-through */
   margin-left: 5%;
 }
 
 ul {
-  padding-top: 20px;
-  padding-bottom: 20px;
   width: 80%;
   margin-left: 7%;
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0, 0.2); /* Black w/opacity/see-through */
 }
