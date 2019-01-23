@@ -11,7 +11,7 @@ body {
 }
 
 #image {
-  background-image: url("https://news.northeastern.edu/wp-content/uploads/2018/08/KingHuskyHead.jpg");
+  background-image: linear-gradient(rgba(105,105,105,0.2), rgba(105,105,105,0.7)), url("https://news.northeastern.edu/wp-content/uploads/2018/08/KingHuskyHead.jpg");
 
   position: fixed;
   z-index: -1;
